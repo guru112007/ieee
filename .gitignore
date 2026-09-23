@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Testing
+.pytest_cache/
+
+# Databases
+greenclaim.db
+*.db
+*.sqlite3
+
+# Environment & OS files
+.env
+.DS_Store
+
+# Build & uploads
+dist/
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
